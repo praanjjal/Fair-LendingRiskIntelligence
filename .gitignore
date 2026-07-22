@@ -1,0 +1,17 @@
+# secrets & env
+.env
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# data — never commit raw pulls; keep manifests
+data/sample/*
+!data/sample/.gitkeep
+*.csv
+*.parquet
+!data/manifests/*
+# BI binaries
+*.pbix
+# os
+.DS_Store
