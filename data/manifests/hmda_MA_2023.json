@@ -1,0 +1,10 @@
+{
+  "source": "HMDA Modified LAR (FFIEC Data Browser API)",
+  "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?years=2023&states=MA&actions_taken=1,2,3,4,5,6,7,8",
+  "state": "MA",
+  "year": "2023",
+  "rows": 210643,
+  "bytes": 81212040,
+  "sha256": "28c71ffc509506df35f2192da522a6f1b0ccd17c4dfddd5ce54e3483a62ead41",
+  "pulled_at_utc": "2026-08-12T23:02:59.510251+00:00"
+}
