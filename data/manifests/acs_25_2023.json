@@ -1,0 +1,21 @@
+{
+  "source": "U.S. Census ACS 5-Year (API)",
+  "url": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B19013_001E,B03002_001E,B03002_003E,B03002_004E,B03002_006E,B03002_012E,B25003_001E,B25003_002E,B25003_003E&for=tract:*&in=state:25&key=REDACTED",
+  "state_fips": "25",
+  "year": "2023",
+  "rows": 1620,
+  "bytes": 190985,
+  "sha256": "f14070e07931875d61dd0e412da8e6501733c35acdad03e4c41095aa01d836b2",
+  "variables": {
+    "B19013_001E": "median_household_income",
+    "B03002_001E": "race_total",
+    "B03002_003E": "white_nonhispanic",
+    "B03002_004E": "black_nonhispanic",
+    "B03002_006E": "asian_nonhispanic",
+    "B03002_012E": "hispanic_any_race",
+    "B25003_001E": "tenure_total",
+    "B25003_002E": "owner_occupied",
+    "B25003_003E": "renter_occupied"
+  },
+  "pulled_at_utc": "2026-08-12T23:30:24.164335+00:00"
+}
