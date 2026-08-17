@@ -22,9 +22,15 @@ _Updated at the end of every task._
 - Fictional sponsor: Meridian Regional Bank.
 - SQL client: VS Code MSSQL extension.
 
-## Open / Next (Week 2)
-- Full business-question set (~15-20 decision-focused questions).
-- Metric glossary v1 with explicit formulas (denial rate, rate-spread gap, disparity + CI).
-- Stakeholder map.
-- Scale data: additional years and/or confirm MA-only is the scope.
-- First data-quality issue log formalized.
+
+## Done
+- **Week 2 complete.**
+- Business questions: 5 decision-focused headline questions + supporting sub-questions, one per stakeholder.
+- Metric glossary v1: formulas, grains, caveats; denial-rate denominator rule codified (exclude action=6).
+- Stakeholder map: decisions, two-sided cost of error, metric mapping per role.
+- Data-quality log: 12 issues with impact and mitigation.
+
+## Open / Next (Week 3)
+- Source-to-target mapping (which raw field → which warehouse column).
+- Dimensional model design: fact_application + dimensions (geography, lender, loan, applicant, date), grain documented.
+- First raw-disparity exploration (uncaveated), labelled as signals only.
