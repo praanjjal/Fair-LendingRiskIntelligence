@@ -30,7 +30,12 @@ _Updated at the end of every task._
 - Stakeholder map: decisions, two-sided cost of error, metric mapping per role.
 - Data-quality log: 12 issues with impact and mitigation.
 
-## Open / Next (Week 3)
-- Source-to-target mapping (which raw field → which warehouse column).
-- Dimensional model design: fact_application + dimensions (geography, lender, loan, applicant, date), grain documented.
-- First raw-disparity exploration (uncaveated), labelled as signals only.
+## Done
+- **Week 3 complete.**
+- Source-to-target mapping + dimensional model design (star schema, grains, keys, validation checks).
+- First raw findings: statewide Black–White denial gap ~17 pp; county ranking (Suffolk/Boston highest reliable gap at 23.3 pp). All flagged uncontrolled — signals, not proof.
+
+
+## Open / Next (Week 4 —Month 2 begins)
+- Build the warehouse for real: ingest raw → SQL, staging layer (typing, code decoding), then core dimensions + fact_application.
+- Run the validation checks from the dimensional model design.
